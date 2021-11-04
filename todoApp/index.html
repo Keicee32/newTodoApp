@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List App</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2 class="heading">Todo List</h2>
+            <div class="add-new">
+                <h3 class="add-h3">Add New</h3>
+                <input type="text" name='inputTodo' placeholder="type here...">
+                <button class="addBtn">+</button>
+            </div>
+            <div class="filter">
+                <h3 class="filter-h3">Filter</h3>
+                <input type="text" class='filterSearch' placeholder="type here...">
+            </div>
+            <div class="active hidden">
+                <h3 class="filter-h3">Active</h3>
+                <ul class="displayTodo"></ul>
+            </div>
+            <div class="completed"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
